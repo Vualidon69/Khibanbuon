@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!-- <br /> xuống dòng -->
+    <!-- <h1>CSS Variable?</h1> tiêu đề -->
+    <!-- <p>tôi hơi chán</p> nội dung -->
+    <!-- <img src="" alt =""> src chèn link ảnh alt chèn vào để khi src bị lỗi thì xuất hiện-->
+    <!-- <a href="">Tới khoa</a> gán đường link -->
+    <!-- <ul></ul> unordered list danh sách chưa nhiều phần tử bên tron -->
+    <!-- <l></l> là một list nmằ trong ul -->
+
+    <!--  <input name="Nhập vào họ tên" type="text"> Nhập vào -->
+
+    <!--<input name = "khoa" type="radio">
+        <input name = "khoa" type="radio">
+        <input name = "khoa" type="radio">
+        nếu k có phần name thi có thể lựa chọn cả ba cái
+    --> 
+
+    <!-- <button >Nhấn vào đi sex đó</button>nút bấm -->
+    
+    <!-- <table>
+       <thead>
+            <th>STT</th>  table heading 
+            <th>Name</th>
+            <th>địa chỉ</th>
+       </thead> 
+       <tbody>
+            <tr>
+                <td>1</td> <td>Nguyễn đăng khoa</td> <td>long an</td>
+            </tr> 
+
+            <tr>
+                <td>2</td> <td>vy</td> <td>long an</td>
+            </tr> 
+       </tbody>
+    </table> -->
+
+    <!-- <div> </div>  tạo một khối bao quanh câu lệnh-->
+    <!-- 
+        px
+        %
+        rem = html
+        em 
+        vw  = chiều ngang trình duyệt 
+        vh = chiều cao trình duyệt 
+     -->
+    <!-- <style>
+        .padding {
+            width : 200px; độ dài
+            height : 200px; độ cao 
+            padding-là một lớp nằm trong đệm 
+            mấy cá dưới này dùng tăng độ dày của nó
+            padding-top:  0px; 
+            padding-right: 100px;
+            padding-bottom: 5px;
+            padding-block : 5px;
+            căn chử ra giữa
+            padding : 
+            tất cả
+            trên phải dưới trái;
+            trên-dưới trái-phải;
+            trên dưới trái-phải;
+            text-align: center; 
+        }
+        .border{
+            lớp vỏ
+            border-color :red;
+            border-style: solid; 
+            border-left: 300px solid white;
+            border-bottom-width: 20px; tăng kích thước tùy hướng
+            border_and_padding đều làm tăng kích thước element
+            chỉ có tác dụng làm dầy
+        }
+        .margin{
+            tách các block ra
+            nó là khoản cách đẩy ra 
+            float :left đẩy các block lên cùng chiều ngang
+            width: 33%;
+            height: 200px;
+            background-color: pink;
+            font-size: 20px;
+            padding-top:  0px;
+            padding-right: 100px;
+            padding-block : 5px;
+            padding-bottom: 5px;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            color: black;
+            background-color: blue;
+            padding :10px;
+            border :2px solid white;
+            box-sizing: border-box;
+        }
+        .head{
+            
+            background-clip: ?-box dùng để đổi màu cho 4 thứ  boder content margin padding
+            chỉ dùng cho background-color
+            background-image: url(https://i.imgur.com/wlQINLA.jpeg);
+            background-size: 60% auto;,  cover lấy cạnh dài chấp nhận việt che ảnh; , contain;
+            background-repeat: no-repeat;
+            border: 20px dashed #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+            background-origin :  padding-box; giống cái clip phía trên
+
+
+            background-position :bottom -8px center 10%;
+
+            background : #333 url() center / contain
+
+        }
+
+    </style> -->    
+  <!--   css function 
+        calc() hàm tính toán width :calc(120px / 11px)
+        attr() thuộc tính 
+
+        <style>
+            a::after {
+                content :"(" attr(href) ")";
+            }
+        </style>
+        <a href ="http://linksex">
+            Link sex 
+        </a>
+        cái trên sẻ ra kết quả : Link sex (http:linksex)
+ -->
+
+    <!-- lớp giả
+    <style>
+        .box:hover{
+            color:red kich hoat khi dc di chuot vào
+        }
+        .box:active{
+            color:aqua kich hoạt khi dc nhan vào
+        }        
+        li:first-child{
+            color : red phần đầu 
+        }
+        li:last-child{
+            color : green phầ cuối
+        }
+    </style>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul> -->
+
+    phần tử giả
+    <!-- <style>
+        .box::before{
+            content :"" ;
+            display : block;
+            width : 50px;
+            height:  10px;
+            background-color: 139;
+        }
+        .box::after{
+            content :"" ;
+            display : block;
+            width : 50px;
+            height:  10px;
+            background-color: 139;
+        }
+        ::before
+        ::content
+        ::after
+        ::first-letter chử cái đầu
+        ::first-line dòng đầu
+        ::seletion  khi dùng chuoọt kéo qua phân tử thì nó thay đổi khi dừng thì thôi
+        
+        position: 
+        reletive
+        absolute nằm ở góc nào
+        fixed luôn dí theo màn hình
+        reletive >absolute
+
+        .box {
+            background-color :red;
+            position: absolutde;
+            top:0 ;
+            right: 0 
+        }
+
+        .box {
+            background-color :red;
+            position: fixed;
+            bottom:0 ;
+
+        }
+
+       
+    </style>
+    <div class = "box">
+
+    </div>
+
+    -->
+
+</body>
+</html>
